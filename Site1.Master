@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="travel_sheet.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+ <%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+<style>
+      #panel1
+    {
+        background-color:Blue;
+    }
+ 
+</style>
+    
+</head>
+<body >
+    
+    <div>
+    <table  border="0" cellpadding="0" cellspacing="0" 
+                     width="100%" style="height: 63px; top: 10px;">
+          
+                    <tr>
+                        
+                           
+                        
+                       
+                        <td  >
+                        <asp:ImageButton ID="Image1" runat="server" ImageUrl="~/lnt-logo.jpg" Width="329px" 
+                                Height="60px" style="margin-left: 0px"  />
+                                 
+                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/hexagons_logo.png" 
+                                Height="74px" Width="301px" style="margin-left: 47px"  />
+                                    
+                            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/logo.jpg"
+                                Height="54px" Width="201px" style="margin-left: 205px"  />
+                               
+                          </td>
+
+                        
+                         
+
+                             
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                         <td>  <asp:ImageButton ID="Image3" runat="server" ImageUrl="~/hexagons_logo.png" Width="50" Height="40" Style="margin-left: 10px" />
+</table>
+
+  
+    
+
+        </div>
+   <br /><br /><br /><br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+   
+ 
+  </div>
+</body>
+ 
+</html>
